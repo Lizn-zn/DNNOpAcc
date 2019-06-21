@@ -22,17 +22,23 @@ In the following figures, the black line is variance of estimation through SRS(S
 - In MNIST dataset, we choose last 1,3,5 layer for comparison.
 <table>
     <tr>
-        <td ><center><img src="/fig/layer_exp_mnist1.png" , height=160px>The last 1st  layer </center></td>
-        <td ><center><img src="/fig/layer_exp_mnist2.png"  , height=160px>The last 3rd layer</center></td>
-        <td ><center><img src="/fig/layer_exp_mnist3.png" , height=160px >The last 5th layer</center></td>
+        <td ><center><img src="/fig/layer_exp_mnist1.png" , height=160px></center>
+        <center>The last 1st  layer </center></td>
+        <td ><center><img src="/fig/layer_exp_mnist2.png"  , height=160px></center>
+        <center>The last 3rd layer</center></td>
+        <td ><center><img src="/fig/layer_exp_mnist3.png" , height=160px ></center>
+        <center>The last 5th layer</center></td>
     </tr>
 </table>
 - In driving dataset, we choose last three layer for comparsion. 
 <table>
     <tr>
-        <td ><center><img src="/fig/layer_exp_driving1.png" , height=160px>The last 1st  layer </center></td>
-        <td ><center><img src="/fig/layer_exp_driving2.png"  , height=160px>The last 2th layer</center></td>
-        <td ><center><img src="/fig/layer_exp_driving3.png" , height=160px >The last 3rd layer</center></td>
+        <td ><center><img src="/fig/layer_exp_driving1.png" , height=160px></center>
+        <center>The last 1st  layer </center></td>
+        <td ><center><img src="/fig/layer_exp_driving2.png"  , height=160px></center>
+        <center>The last 2th layer</center></td>
+        <td ><center><img src="/fig/layer_exp_driving3.png" , height=160px ></center>
+        <center>The last 3rd layer</center></td>
     </tr>
 </table>
 
@@ -54,9 +60,12 @@ The detailed experimental results are as follows.
 
 <table>
     <tr>
-        <td ><center><img src="/fig/SA_exp_original.png" , height=160px>The original context </center></td>
-        <td ><center><img src="/fig/SA_exp_mutant.png"  , height=160px>The mutant context</center></td>
-        <td ><center><img src="/fig/SA_exp_transfer.png" , height=160px >The transfer context</center></td>
+        <td ><center><img src="/fig/SA_exp_original.png" , height=160px></center>
+        <center>The original context </center></td>
+        <td ><center><img src="/fig/SA_exp_mutant.png"  , height=160px></center>
+        <center>The mutant context</center></td>
+        <td ><center><img src="/fig/SA_exp_transfer.png" , height=160px ></center>
+        <center>The transfer context</center></td>
     </tr>
 </table>
 
