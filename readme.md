@@ -22,23 +22,17 @@ In the following figures, the black line is variance of estimation through SRS(S
 - In MNIST dataset, we choose last 1,3,5 layer for comparison.
 <table>
     <tr>
-        <td ><center><img src="/fig/layer_exp_mnist1.png" , height=160px></center>
-        <center>The last 1st  layer </center></td>
-        <td ><center><img src="/fig/layer_exp_mnist2.png"  , height=160px></center>
-        <center>The last 3rd layer</center></td>
-        <td ><center><img src="/fig/layer_exp_mnist3.png" , height=160px ></center>
-        <center>The last 5th layer</center></td>
+        <td ><center><img src="/fig/layer_exp_mnist1.png" , height=220px><small>The last 1st  layer</small></center></td>
+        <td ><center><img src="/fig/layer_exp_mnist2.png" , height=220px><small>The last 3rd layer</small></center></td>
+        <td ><center><img src="/fig/layer_exp_mnist3.png" , height=220px ><small>The last 5th layer</small></center></td>
     </tr>
 </table>
 - In driving dataset, we choose last three layer for comparsion. 
 <table>
     <tr>
-        <td ><center><img src="/fig/layer_exp_driving1.png" , height=160px></center>
-        <center>The last 1st  layer </center></td>
-        <td ><center><img src="/fig/layer_exp_driving2.png"  , height=160px></center>
-        <center>The last 2th layer</center></td>
-        <td ><center><img src="/fig/layer_exp_driving3.png" , height=160px ></center>
-        <center>The last 3rd layer</center></td>
+        <td ><center><img src="/fig/layer_exp_driving1.png" , height=220px><small>The last 1st  layer</small> </center></td>
+        <td ><center><img src="/fig/layer_exp_driving2.png"  , height=220px><small>The last 2th layer</small></center></td>
+        <td ><center><img src="/fig/layer_exp_driving3.png" , height=220px ><small>The last 3rd layer</small></center></td>
     </tr>
 </table>
 
@@ -60,14 +54,20 @@ The detailed experimental results are as follows.
 
 <table>
     <tr>
-        <td ><center><img src="/fig/SA_exp_original.png" , height=160px></center>
-        <center>The original context </center></td>
-        <td ><center><img src="/fig/SA_exp_mutant.png"  , height=160px></center>
-        <center>The mutant context</center></td>
-        <td ><center><img src="/fig/SA_exp_transfer.png" , height=160px ></center>
-        <center>The transfer context</center></td>
+        <td ><center><img src="/fig/SA_exp_original.png" , height=220px><small>The original context</small> </center></td>
+        <td ><center><img src="/fig/SA_exp_mutant.png"  , height=220px><small>The mutant context</small></center></td>
+        <td ><center><img src="/fig/SA_exp_transfer.png" , height=220px ><small>The transfer context</small></center></td>
     </tr>
 </table>
 
 
-#### 
+#### What would be the case if the sample size further grows beyond 180? Would different estimators converge?
+
+Due to my limited ability, no very strong theoretical proof has been provided at present. However, i conduct some experiments to validate this point.
+
+I choose the down-sampling dataset (i.e. the context of different system settings in the paper) as test dataset. In this situation, the CES is used for sampling until the size of sample set achieves 2,500. 
+
+<center><img src="/fig/large_size_exp.png" , height=300px ></center>
+<center><small>The efficiency of CES in large sample size </small></center>
+
+From the figure we can see that the relative effciency is very stable even when the sample size grew up to 2,500.
