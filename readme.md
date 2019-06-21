@@ -22,9 +22,9 @@ In the following figures, the black line is variance of estimation through SRS(S
 - In MNIST dataset, we choose last 1,3,5 layer for comparison.
 <table>
     <tr>
-        <td ><center><img src="/fig/layer_exp_mnist1.png" , height=160px>The last 1st  layer </center></td>
-        <td ><center><img src="/fig/layer_exp_mnist2.png"  , height=160px>The last 3rd layer</center></td>
-        <td ><center><img src="/fig/layer_exp_mnist3.png" , height=160px >The last 5th layer</center></td>
+        <td ><center><img src="/fig/layer_exp_mnist1.png", height=160px>The last 1st  layer </center></td>
+        <td ><center><img src="/fig/layer_exp_mnist2.png", height=160px>The last 3rd layer</center></td>
+        <td ><center><img src="/fig/layer_exp_mnist3.png", height=160px >The last 5th layer</center></td>
     </tr>
 </table>
 - In driving dataset, we choose last three layer for comparsion. 
