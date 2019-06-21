@@ -67,11 +67,7 @@ Due to my limited ability, no very strong theoretical proof has been provided at
 
 I choose the down-sampling dataset (i.e. the context of different system settings in the paper) as test dataset. In this situation, the CES is used for sampling until the size of sample set achieves 2,500. 
 
-<table>
-    <tr>
-        <td ><center><img src="/fig/large_size_exp.png" , height=400px> </center></td>
-            </tr>
-</table>
+<center><img src="/fig/large_size_exp.png" , height=400px> </center>
 
 From the figure we can see that the relative effciency is very stable even when the sample size grew up to 2,500.
 
