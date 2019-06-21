@@ -69,8 +69,9 @@ I choose the down-sampling dataset (i.e. the context of different system setting
 
 <table>
     <tr>
-        <td ><center><img src="/fig/large_size_exp.png" , height=600px><center><small>The efficiency of CES in large sample size </small> </center></td>
+        <td ><center><img src="/fig/large_size_exp.png" , height=400px> </center></td>
             </tr>
 </table>
+
 From the figure we can see that the relative effciency is very stable even when the sample size grew up to 2,500.
 
