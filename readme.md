@@ -71,3 +71,4 @@ I choose the down-sampling dataset (i.e. the context of different system setting
 <center><small>The efficiency of CES in large sample size </small></center>
 
 From the figure we can see that the relative effciency is very stable even when the sample size grew up to 2,500.
+
