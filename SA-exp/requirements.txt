@@ -1,6 +1,6 @@
 sklearn
 absl-py==0.2.2
-setuptools==39.1.0
+setuptools==65.5.1
 astor==0.7.1
 gast==0.2.0
 grpcio==1.13.0
